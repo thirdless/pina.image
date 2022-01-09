@@ -190,6 +190,7 @@ body.events a.event .details{
   position: absolute;
   z-index: 1;
   top: 50%;
+  width: 100%;
   transform: translate(0, -50%);
   box-sizing: border-box;
   padding: 2em;
@@ -247,7 +248,6 @@ body.event-page .content p{
   margin: 1em 0;
   font-size: .9em;
   line-height: 1.5em;
-  text-align: justify;
 }
 
 .zoom-overlay{

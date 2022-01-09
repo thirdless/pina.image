@@ -7,7 +7,7 @@ title: "Evenimente"
 
 {% for event in site.events %}
 <a href="{{ site.baseurl }}{{ event.url }}" class="event">
-    {% if event.background %}<div class="background" style="background-image:url()"></div>{% endif %}
+    {% if event.background %}<div class="background" style="background-image:url({{ event.background }})"></div>{% endif %}
     <div class="details">
         <p>{{ event.title }}</p>
         {% assign mindex = event.date | date: "%-m" | minus: 1 %}
