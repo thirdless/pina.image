@@ -32,6 +32,7 @@ sass:
 
 collections:
   events:
+    output: true
     permalink: /:collection/:path
 
 # Exclude these files from your production _site
