@@ -1,7 +1,7 @@
-title: Pina Image
-email: ceva@altceva
-phone: 0777777777
-author: Simion Ionut Pintea
+title: "Pina Image"
+email: "ceva@altceva"
+phone: "0777777777"
+author: "Simion Ionut Pintea"
 description: >- 
   Fotograf
 
@@ -9,8 +9,8 @@ baseurl: ""
 url: "https://smuwn.github.io/"
 
 header-links:
-   instagram: pinaceae.image
-   facebook: pinaceae.image
+   instagram: "pinaceae.image"
+   facebook: "pinaceae.image"
 
 # Build settings
 markdown: kramdown
