@@ -1,39 +1,20 @@
-title: Pure randomness
-email: mbechler@eenterphace.org
-author: Moritz Bechler
+title: Pina Image
+email: ceva@altceva
+phone: 0777777777
+author: Simion Ionut Pintea
 description: >- 
-  Random ramblings, exploits and projects.   
+  Fotograf
 
 baseurl: ""
-url: "https://mbechler.github.io/" 
+url: "https://smuwn.github.io/"
 
-footer-links:
-   github: mbechler
+header-links:
+   instagram: pinaceae.image
+   facebook: pinaceae.image
 
 # Build settings
 markdown: kramdown
-#theme: minima
-theme: jekyll-theme-slate
-plugins:
-  - jekyll-feed
-  - jekyll-archives
-#  - jekyll-paginate
-  - jekyll-sitemap
-
-
 permalink: /:year/:month/:day/:title/
-#paginate_path: /posts/:num/
-#paginate: 5
-
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: category_archives
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
-
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
@@ -47,8 +28,7 @@ kramdown:
 
 # Set the Sass partials directory, as we're using @imports
 sass:
-  style: :expanded # You might prefer to minify using :compressed
-
+  style: :compressed # You might prefer to minify using :compressed
 
 # Exclude these files from your production _site
 exclude:
