@@ -1,0 +1,18 @@
+---
+layout: default
+type: events
+title: "Evenimente"
+---
+<h1>Evenimente</h1>
+
+{% for post in site.posts %}
+<a href="{{ site.baseurl }}{{ post.url }}" class="event">
+    {% if post.background %}<div class="background" style="background-image:url({{ post.background }})"></div>{% endif %}
+    <div class="details">
+        <p>{{ post.title }}</p>
+        {% assign mindex = page.date | date: "%-m" | minus: 1 %}
+        {% assign month = site.data.months.months[mindex] %}
+        <span>{{ page.date | date: "%-d" }} {{ month }} {{ page.date | date: "%Y" }}</span>
+    </div>
+</a>
+{% endfor %}
