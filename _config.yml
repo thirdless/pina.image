@@ -9,8 +9,8 @@ baseurl: ""
 url: "https://smuwn.github.io/"
 
 header-links:
-   instagram: "pinaceae.image"
-   facebook: "pinaceae.image"
+  instagram: "pinaceae.image"
+  facebook: "pinaceae.image"
 
 # Build settings
 markdown: kramdown
@@ -29,6 +29,10 @@ kramdown:
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :compressed # You might prefer to minify using :compressed
+
+collections:
+  events:
+    permalink: /:collection/:path
 
 # Exclude these files from your production _site
 exclude:
