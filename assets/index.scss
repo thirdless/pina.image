@@ -224,7 +224,7 @@ body.photos .content h2{
 body.photos .content img, body.event-page .content img{
   position: relative;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   width: calc(32% - 1em);
   margin: 1em 1em 1em 0;
   z-index: 1;
