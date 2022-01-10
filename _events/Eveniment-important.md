@@ -1,7 +1,7 @@
 ---
 layout: event
 type: event-page
-title: "Eveniment"
+title: "Titlu Lorem Ipsum Dolor Sit Amet"
 date: 2006-08-16
 background: "https://am3pap004files.storage.live.com/y4mxLQsiX1SODUU5J69xKMUpWBpY_XhWy8Cb1rNt2WAwuANU7HWr5IgVAvOwuv8pEQSoOAs7_2BzNyu-ft9w8uNafobzxl03M-2AjLmcFraqd4nJGNhKdvgGc_CC8bAhPJj0_uSLo_783DXHneMvCBXZ0N3t1cLCquJ7f1IaOjSLAFhERkRVQGINioJNC0OssNm?width=1170&height=780&cropmode=none"
 ---

@@ -371,11 +371,16 @@ body.event-page .content p{
     margin-right: 0;
     margin: .5em 0;
     width: 100%;
-    padding-top: 35%;
+    padding-top: 45%;
   }
 
   body.events a.event .details{
-    font-size: 1.2em;
+    font-size: 1em;
+    padding: .5em;
+  }
+
+  body.events a.event span{
+    display: none;
   }
 
   body.event-page .content, body.photos .content{
