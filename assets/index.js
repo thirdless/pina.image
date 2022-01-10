@@ -91,6 +91,15 @@ function home(){
     setInterval(iterateBackgrounds, 5000);
 }
 
+function toggleMenu(event){
+    let target = event.currentTarget;
+
+    if(target.classList.contains("show"))
+        target.classList.remove("show");
+    else
+        target.classList.add("show");
+}
+
 function dom(){
     let page = document.body.classList;
 
@@ -98,6 +107,9 @@ function dom(){
         home();
     else if(page.contains("photos") || page.contains("event-page"))
         photos();
+
+    let sandwich = document.querySelector("body>.header>.sandwich");
+    sandwich.addEventListener("click", toggleMenu);
 }
 
 document.addEventListener("DOMContentLoaded", dom);
