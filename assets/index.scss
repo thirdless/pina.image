@@ -61,6 +61,22 @@ body.home .header .logo img{
   position: relative;
 }
 
+.header .sandwich{
+  display: inline-block;
+  position: relative;
+}
+
+.header .sandwich::before, .header .sandwich::after{
+  content: "";
+  width: 100%;
+  height: .1em;
+  background: #000;
+}
+
+.header .sandwich::before{
+  margin-bottom: .2em;
+}
+
 .header a{
   margin: 0 .5em;
   font-size: 1.1em;
@@ -68,6 +84,10 @@ body.home .header .logo img{
 
 .header a.current{
   text-decoration: underline;
+}
+
+.header a span{
+  font-size: 0;
 }
 
 .header svg{
@@ -114,6 +134,7 @@ body.contact .content a{
   display: table;
   font-weight: bold;
   margin: 1em 0;
+  font-size: 1.15em;
 }
 
 body.contact .content svg{
@@ -266,4 +287,66 @@ body.event-page .content p{
 
 .zoom-overlay.show{
   opacity: 1;   
+}
+
+@media only screen and (max-width: 900px) {
+  .content{
+    padding: 0 2em;
+  }
+
+  .content h1{
+    text-align: center;
+    font-size: 2em;
+  }
+
+  body.events a.event{
+    margin-right: 0;
+    margin: .5em 0;
+    width: 100%;
+    padding-top: 35%;
+  }
+
+  body.events a.event .details{
+    font-size: 1.2em;
+  }
+
+  body.event-page .content, body.photos .content{
+    text-align: center;
+  }
+
+  body.photos .content img, body.event-page .content img{
+    width: calc(49% - 1em);
+  }
+
+  body.photos .content h2{
+    margin: 1em 0 .5em;
+  }
+
+  body.about .sides>div{
+    width: 100% !important;
+    display: block;
+  }
+
+  body.about h2{
+    margin-top: 0;
+    font-size: 1.5em;
+  }
+
+  body.about p{
+    margin: 2em 0 2em;
+  }
+
+  .header a span{
+    font-size: 1em;
+    margin-left: .5em;
+  }
+
+  .header .menu{
+    position: fixed;
+    background: #fff;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
 }
