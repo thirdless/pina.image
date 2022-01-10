@@ -42,7 +42,7 @@ body.home .header::after{
   margin: 1.5em 0;
   display: inline-block;
   height: 4em;
-  max-width: 70vw;
+  max-width: 70%;
   z-index: 1;
   position: relative;
 }
@@ -52,6 +52,7 @@ body.home .header::after{
   max-height: 100%;
   pointer-events: none;
   filter: saturate(0%);
+  display: block;
 }
 
 body.home .header .logo img{
@@ -68,11 +69,11 @@ body.home .header .logo img{
   position: relative;
   width: 1.5em;
   height: 2em;
-  margin-top: 2.5em;
-  float: right;
   z-index: 2;
   cursor: pointer;
   transition: color .3s ease;
+  vertical-align: middle;
+  margin-right: 1em;
 }
 
 .header .sandwich.show{
@@ -317,6 +318,11 @@ body.event-page .content p{
     text-align: initial;
     box-sizing: border-box;
     padding: 0 2em;
+  }
+
+  .header .logo{
+    height: initial;
+    vertical-align: middle;
   }
 
   .header .menu{
