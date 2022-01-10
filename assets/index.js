@@ -91,13 +91,15 @@ function home(){
     setInterval(iterateBackgrounds, 5000);
 }
 
-function toggleMenu(event){
-    let target = event.currentTarget;
+let menuElement;
 
-    if(target.classList.contains("show"))
-        target.classList.remove("show");
+function toggleMenu(){
+    let className = "show";
+    
+    if(menuElement.classList.contains(className))
+        menuElement.classList.remove(className);
     else
-        target.classList.add("show");
+        menuElement.classList.add(className);
 }
 
 function dom(){
@@ -109,6 +111,7 @@ function dom(){
         photos();
 
     let sandwich = document.querySelector("body>.header>.sandwich");
+    menuElement = document.querySelector("body>.header>.menu");
     sandwich.addEventListener("click", toggleMenu);
 }
 
