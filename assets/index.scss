@@ -42,7 +42,8 @@ body.home .header::after{
   margin: 1.5em 0;
   display: inline-block;
   height: 4em;
-  max-width: 70%;
+  width: 70%;
+  max-width: 15em;
   z-index: 1;
   position: relative;
 }
@@ -315,9 +316,9 @@ body.event-page .content p{
 
 @media only screen and (max-width: 900px) {
   .header{
-    text-align: initial;
     box-sizing: border-box;
     padding: 0 2em;
+    text-align: center;
   }
 
   .header .logo{
@@ -336,7 +337,6 @@ body.event-page .content p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
     visibility: hidden;
     opacity: 0;
     transition: .3s ease;
@@ -383,8 +383,9 @@ body.event-page .content p{
   }
 
   body.photos .content img, body.event-page .content img{
-    width: calc(49% - 1em);
+    width: calc(49% - .5em);
     z-index: initial;
+    margin: .5em .5em .5em 0;
   }
 
   body.photos .content h2{
