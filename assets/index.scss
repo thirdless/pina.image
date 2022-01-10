@@ -132,6 +132,12 @@ body.home .header .logo img{
   z-index: 2;
 }
 
+body:not(.events):not(.contact) .content a{
+  text-decoration: underline;
+  color: #1565C0;
+  font-weight: bold;
+}
+
 .content h1{
   text-transform: uppercase;
   font-size: 2.25em;
