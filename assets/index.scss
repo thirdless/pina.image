@@ -64,12 +64,17 @@ body.home .header .logo img{
 .header .sandwich{
   display: none;
   position: relative;
-  width: 2em;
+  width: 1.5em;
   height: 2em;
   margin-top: 2.5em;
   float: right;
   z-index: 2;
   cursor: pointer;
+  transition: color .3s ease;
+}
+
+.header .sandwich.show{
+  color: black;
 }
 
 .header .sandwich::before, .header .sandwich::after{
@@ -79,10 +84,20 @@ body.home .header .logo img{
   background: currentColor;
   display: block;
   position: relative;
+  transform-origin: top left;
+  transition: transform .3s ease;
 }
 
 .header .sandwich::before{
   margin: .6em 0;
+}
+
+.header .sandwich.show::before{
+  transform: rotate(45deg);
+}
+
+.header .sandwich.show::after{
+  transform: rotate(-45deg);
 }
 
 .header a{
@@ -211,13 +226,11 @@ body.events a.event .background{
   left: 0;
   background-position: center;
   background-size: cover;
-  z-index: 0;
   transition: .3s ease;
 }
 
 body.events a.event .details{
   position: absolute;
-  z-index: 1;
   top: 50%;
   width: 100%;
   transform: translate(0, -50%);
@@ -338,7 +351,7 @@ body.event-page .content p{
 
   .content{
     padding: 0 2em;
-    z-index: 0;
+    z-index: initial;
   }
 
   .content h1{

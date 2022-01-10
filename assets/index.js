@@ -93,13 +93,18 @@ function home(){
 
 let menuElement;
 
-function toggleMenu(){
-    let className = "show";
-    
-    if(menuElement.classList.contains(className))
+function toggleMenu(event){
+    let target = event.currentTarget,
+        className = "show";
+
+    if(menuElement.classList.contains(className)){
         menuElement.classList.remove(className);
-    else
+        target.classList.remove(className);
+    }
+    else{
         menuElement.classList.add(className);
+        target.classList.add(className);
+    }
 }
 
 function dom(){
