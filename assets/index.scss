@@ -93,7 +93,7 @@ body.home .header .logo img{
 }
 
 .header .sandwich.show::before{
-  transform: rotate(45deg);
+  transform: translate(.1em, -.25em) rotate(45deg);
 }
 
 .header .sandwich.show::after{

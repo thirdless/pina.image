@@ -100,10 +100,12 @@ function toggleMenu(event){
     if(menuElement.classList.contains(className)){
         menuElement.classList.remove(className);
         target.classList.remove(className);
+        document.body.style.overflow = "";
     }
     else{
         menuElement.classList.add(className);
         target.classList.add(className);
+        document.body.style.overflow = "hidden";
     }
 }
 
