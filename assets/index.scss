@@ -81,7 +81,8 @@ body.home .header .logo img{
   color: black;
 }
 
-.header .sandwich::before, .header .sandwich::after{
+.header .sandwich::before,
+.header .sandwich::after{
   content: "";
   width: 100%;
   height: .15em;
@@ -389,11 +390,13 @@ body.event-page .content p{
     display: none;
   }
 
-  body.event-page .content, body.photos .content{
+  body.event-page .content,
+  body.photos .content{
     text-align: center;
   }
 
-  body.photos .content img, body.event-page .content img{
+  body.photos .content img,
+  body.event-page .content img{
     width: calc(49% - .5em);
     z-index: initial;
     margin: .5em .5em .5em 0;
