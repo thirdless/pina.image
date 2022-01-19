@@ -225,7 +225,6 @@ body.events a.event{
 
 body.events a.event:hover .background{
   opacity: .5;
-  filter: blur(.1em);
 }
 
 body.events a.event .background{
@@ -237,7 +236,7 @@ body.events a.event .background{
   left: 0;
   background-position: center;
   background-size: cover;
-  transition: .3s ease;
+  transition: opacity .3s ease;
 }
 
 body.events a.event .details{
