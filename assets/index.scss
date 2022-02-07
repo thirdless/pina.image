@@ -278,11 +278,16 @@ body.event-page .content img{
   position: relative;
   display: inline-block;
   vertical-align: middle;
-  width: calc(32% - 1em);
+  max-width: calc(32% - 1em);
+  max-height: 40vh;
   margin: 1em 1em 1em 0;
   z-index: 1;
   cursor: pointer;
   transition: transform .3s ease;
+}
+
+body.event-page .content{
+  text-align: center;
 }
 
 body.event-page .content h1{
