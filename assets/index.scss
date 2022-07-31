@@ -1,6 +1,11 @@
 ---
 ---
 
+@font-face{
+  font-family: "Louis George Cafe";
+  src: url("louis.ttf");
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -13,7 +18,7 @@ a{
 
 body{
   background: #fff;
-  font-family: "Playfair Display";
+  font-family: "Louis George Cafe";
 }
 
 .header{
