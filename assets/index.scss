@@ -53,6 +53,10 @@ body.home .header::after{
   position: relative;
 }
 
+.header .logo a{
+  display: inline-block;
+}
+
 .header .logo img{
   max-width: 100%;
   max-height: 100%;
