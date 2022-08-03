@@ -22,7 +22,6 @@ body{
 }
 
 .header{
-  font-weight: bold;
   text-align: center;
   position: relative;
   z-index: 1;
@@ -121,6 +120,7 @@ body.home .header .logo img{
 
 .header a.current{
   text-decoration: underline;
+  font-weight: bold;
 }
 
 .header a span{
