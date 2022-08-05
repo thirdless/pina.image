@@ -10,9 +10,11 @@ title: "Events"
     {% if event.background %}<div class="background" style="background-image:url({{ event.background }})"></div>{% endif %}
     <div class="details">
         <p>{{ event.title }}</p>
+        {% if event.date %}
         {% assign mindex = event.date | date: "%-m" | minus: 1 %}
         {% assign month = site.data.months.months[mindex] %}
         <span>{{ event.date | date: "%-d" }} {{ month }} {{ event.date | date: "%Y" }}</span>
+        {% endif %}
     </div>
 </a>
 {% endfor %}
