@@ -10,7 +10,6 @@ title: "Events"
     {% if event.background %}<div class="background" style="background-image:url({{ event.background }})"></div>{% endif %}
     <div class="details">
         <p>{{ event.title }}</p>
-        {{ event.page.date }}
         {% if event.date %}
         {% assign mindex = event.date | date: "%-m" | minus: 1 %}
         {% assign month = site.data.months.months[mindex] %}
