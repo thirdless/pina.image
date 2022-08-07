@@ -1,13 +1,13 @@
 ---
 layout: event
 type: event-page
-title: "Titlu Lorem Ipsum Dolor Sit Amet"
+title: "Botez"
 background: "https://dub01pap003files.storage.live.com/y4maAO8pqkid_ONF52GEya8fILENCbLqsbXQ_k07QtHRCiukCNCKbqFpAjN4LbTFcBUvPtiARtjPEmIysvyTXOsV4H40swQvn_oFScvhG3jlq55wdIAKRvgCSfiPJRCsF_PuZKKPUOCcGn4Okm8A2vEvHu6wJ7qmIUfC6KQu4xnaOELtD2eTrAyDi3k1oAW3j55?width=2000&height=1335&cropmode=none"
 ---
 
-![image](https://am3pap004files.storage.live.com/y4mxLQsiX1SODUU5J69xKMUpWBpY_XhWy8Cb1rNt2WAwuANU7HWr5IgVAvOwuv8pEQSoOAs7_2BzNyu-ft9w8uNafobzxl03M-2AjLmcFraqd4nJGNhKdvgGc_CC8bAhPJj0_uSLo_783DXHneMvCBXZ0N3t1cLCquJ7f1IaOjSLAFhERkRVQGINioJNC0OssNm?width=1170&height=780&cropmode=none)
-![image](https://am3pap004files.storage.live.com/y4mEft_bdddQcVfjL4mH0mDwU2gZu11Few0JPZkJJKYjSCTNl7bWIsdrWcTwwGYpr3F7E-jr-mycel_mmTJON0Mz9cP02qwxChSGdwfL54sDIFKge0_S4uRFgnZh4PWmR3mFLRuXIhCBdXQdo2NN1WlD9SDIOSFu8jubTLTT-4fK0wZ3j3xFIsThnwfp5NUPTLj?width=387&height=581&cropmode=none)
-![image](https://am3pap004files.storage.live.com/y4mjuFX5J5ce7gJPw5yLBBt1DiTjq2H1HwKVrUB-oQ-v4ITslLQpO9f1tOKEmPsey69FUdTpCnpsdu0vM8BjuCmQioYBwd_7iwaWiQWxbOzlg_QYFXU45cNFgtygtYBl0UtcWoe8sBpegL7pz0d7txlYoA1MKRgVtaNIoPE84LX5f7h6jJdmdqkFAxruxLEBm1l?width=1171&height=781&cropmode=none)
-![image](https://am3pap004files.storage.live.com/y4mJs_gd8QNfpPufPyFopYNULvglU7udjMVIfzLpadVRA93vhmjYk9LEsGgoqhumf5wRdbvV10C-Ll4DKVpYfDYTV1_B8kgdgXot_bR2GwI7Ly4AOmBtRpZDL8dOt6UlZ-GVTy8vpY5Kz85L08TeSLvnYuaID3UhhmbDeCfJ4Erbx-eTX-9bPo2a18JV9g0N9wC?width=1170&height=780&cropmode=none)
-![image](https://am3pap004files.storage.live.com/y4m7kphsSBuI2-EAwiKDEn-jpQ2IqXt-RIBLCpZIhr7KH1PF8bEbHak4885YvLg8816_2TwldZGfPDmQhSwcMq8OCIEeR5LpCQMPDgGeA79wc3HkfQhTdU2kDNmJ2s6WCA12s0czcuDdted5akocmbWVQMY7t7tDFIklSz2R_sSo0xiMLh5IA06aVHFurc3JFZX?width=1170&height=780&cropmode=none)
-![image](https://am3pap004files.storage.live.com/y4mtAlsz_id6IKfZxIfxpf3mHnlmcHVyB0f5fK0HDazX43MaY1KbSUR3S4IxNyGPxJqqFIzGqkza9mooq6yhOWtewhR8hnNu8YBJSoRQ2wNbDI9BrpWj34BHf2XZaQq79ht61I9SVRJnOJqu7l0CTuHdtT_XUQqAeSo9a6KY4XDemgwUZhGwrL4lYsyUfMfnT67?width=1170&height=780&cropmode=none)
+![image](https://dub01pap003files.storage.live.com/y4m5P7I878sc3szZFW9UmSP4RnzScoAEl3W_-xUf9p2YgZqO0sCiQHqp5tPxZ6i0i3GzcE1LrK74xaJAAORDuv0YpRfTSKkEHRUFDdCpzKrgQr2OZs7xb-tx-SnC4cHoW0gggoiuCbtyqX070L4R3L4BhvGSLPCA_506dA2SQFQA9rNOpXQhO9U-geyEXmn30np?width=2000&height=1335&cropmode=none)
+![image](https://dub01pap003files.storage.live.com/y4mmDYrb01CRI9WRMwKub0asrlFZ-bH3bt3bga2URVg8I_3SVbdP4exM7KZUjbEJOkyVlXHwwCZ0foQG4EIvjRzp2pxTZm2gXoYWBmYV3jEZ0VopDa7y9C-AURq0zaQgQfUT030x0DWPXywCFh78Vs6bTqOZUt3FJida8ax-4DIYqHyQ8oeHSB-hkbp4qIXKT-q?width=2000&height=1335&cropmode=none)
+![image]()
+![image]()
+![image]()
+![image]()
