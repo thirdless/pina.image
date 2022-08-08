@@ -412,9 +412,10 @@ body.event-page .content p{
 
   body.photos .content img,
   body.event-page .content img{
-    max-width: calc(49% - .5em);
+    max-width: 100%;
     z-index: initial;
-    margin: .5em .5em .5em 0;
+    margin: .5em;
+    max-height: initial;
   }
 
   body.photos .content h2{
