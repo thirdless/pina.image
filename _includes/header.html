@@ -4,7 +4,7 @@
 </div>
 <div class="menu">
     <a href="/"{% if page.type == 'home' %} class="current"{% endif %}>Home</a>
-    <a href="/events"{% if page.type == 'events' %} class="current"{% endif %}>Events</a>
+    <a href="/events"{% if page.type == 'events' or page.type == 'event-page' %} class="current"{% endif %}>Events</a>
     <a href="/travel"{% if page.type == 'photos' %} class="current"{% endif %}>Travel</a>
     <a href="/about"{% if page.type == 'about' %} class="current"{% endif %}>About</a>
     <a href="/contact"{% if page.type == 'contact' %} class="current"{% endif %}>Contact</a>
