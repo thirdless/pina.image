@@ -1,10 +1,9 @@
 ---
 layout: event
 type: event-page
-title: "Cununie Civilă"
+title: "Cununie Civilă I&G"
 background: "https://dub01pap003files.storage.live.com/y4my_MWFRXdfV5g8gfzDRleKYl7fv7X1HPvZXuDADogrolHSDOK_9gDOWWwLi-VCvl41xSzKWIAL5wNkvjr76M4oB9_TxxgQzL_Q-IhaIG92Ed33oWfdw4kl-wMfhnnFWq3fiqdSexuFDxf3YBgnpDEM68lOIgK11eCZgK7nYp68ymCGt6GqiyrlXCUy0x1BP_x?width=660&height=441&cropmode=none"
 ---
-Cununie civilă.
 
 ![image](https://dub01pap003files.storage.live.com/y4m3UTa5hzn7yOoFKD7HXAgAg1uAmcvXFKK2HAHheTtjOLgAow8xbVmf0YNgaHqOr-jOeYFr0OR4Ggul5PyzS6hmScdcEDsQxRWcn5UG8TPSxJTwwcp1hWYrOJdM4486xa2I-LupzZYM7RTidefEqmnmuzRhCEwqEtGWyMtf-9e7HQli-mi1-4S2zOKYAsDDkH-?width=660&height=660&cropmode=none)
 ![image](https://dub01pap003files.storage.live.com/y4mcK_DZ8B-Dl00oE67anVp43BgHozAlY08tYc7zsLQkumX0XgwiznAI5H7i5cc89dIm_nAsG-3-dpsi66EmmcxezirRQ2VQx2JhE6xDn-5XljjnUL-ySDtxCP9Phzrlg7SJ093x4U8sTyACfWdkP6TPNS2Tlt-yPRsdmauGI4R7YjeknUvuCaBt4JZ_GpDSnsF?width=660&height=441&cropmode=none)
