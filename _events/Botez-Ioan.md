@@ -1,7 +1,7 @@
 ---
 layout: event
 type: event-page
-title: "Cununie Civilă I&G"
+title: "Botez Ioan"
 background: "https://dub01pap003files.storage.live.com/y4mrHWUJLw1MXUVQl9K1wiZ8BjEiS28jSjzVD_wRYAcAQVqn62wfdWjd1rYsweaTJ2x43mEjbYyIYLAJAhkr-SO0P6IB5oUmIavKWv8bR3nf5Kr4yVCg0f0hFT96zfKfHAKhCdEAy2gCFOkZ6FcYXC9XktfK8WXXWKly4CSWmfd5KElYgfuWUfdwGoOyAnB9xqD?width=2000&height=1335&cropmode=none"
 ---
 
