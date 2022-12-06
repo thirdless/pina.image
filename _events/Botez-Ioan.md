@@ -2,7 +2,8 @@
 layout: event
 type: event-page
 title: "Cununie Civilă I&G"
-background: "https://dub01pap003files.storage.live.com/y4my_MWFRXdfV5g8gfzDRleKYl7fv7X1HPvZXuDADogrolHSDOK_9gDOWWwLi-VCvl41xSzKWIAL5wNkvjr76M4oB9_TxxgQzL_Q-IhaIG92Ed33oWfdw4kl-wMfhnnFWq3fiqdSexuFDxf3YBgnpDEM68lOIgK11eCZgK7nYp68ymCGt6GqiyrlXCUy0x1BP_x?width=660&height=441&cropmode=none"
+background: "https://dub01pap003files.storage.live.com/y4mrHWUJLw1MXUVQl9K1wiZ8BjEiS28jSjzVD_wRYAcAQVqn62wfdWjd1rYsweaTJ2x43mEjbYyIYLAJAhkr-SO0P6IB5oUmIavKWv8bR3nf5Kr4yVCg0f0hFT96zfKfHAKhCdEAy2gCFOkZ6FcYXC9XktfK8WXXWKly4CSWmfd5KElYgfuWUfdwGoOyAnB9xqD?width=2000&height=1335&cropmode=none"
 ---
 
-![image]()
+![image](https://dub01pap003files.storage.live.com/y4mrHWUJLw1MXUVQl9K1wiZ8BjEiS28jSjzVD_wRYAcAQVqn62wfdWjd1rYsweaTJ2x43mEjbYyIYLAJAhkr-SO0P6IB5oUmIavKWv8bR3nf5Kr4yVCg0f0hFT96zfKfHAKhCdEAy2gCFOkZ6FcYXC9XktfK8WXXWKly4CSWmfd5KElYgfuWUfdwGoOyAnB9xqD?width=2000&height=1335&cropmode=none)
+![image](https://dub01pap003files.storage.live.com/y4mX7dX--gWlKXvEWa03jbGbLYkPxTbJljrYInSDp7lL9fEDVBYI734IW1wwKp2W1MJFqy7X4dO8SoPmMxGp1PqPzmtXKUWd7Tj9r47GfKR9KnzPr2WxKkkUuZWCT-UnmjQjdu7OjImoSafbXhAEw0RbzEpQuERJqnxsBdY8hXtB3txOBt2IfYgh4All_e_lUU-?width=2000&height=1335&cropmode=none)
