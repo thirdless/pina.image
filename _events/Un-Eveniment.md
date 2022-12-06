@@ -2,10 +2,8 @@
 layout: event
 type: event-page
 title: "Botez Achim"
-date: 2020-08-07
 background: "https://dub01pap003files.storage.live.com/y4mF5S_gwV_zA46HPuHzCzmfWVO0qr9uzf1BV87RKjbp7pY-6-t4TNPaO_ZLQoI1GnKcR_JVZwtsCJVEsNJvyQowHNMIxS0IDfVy3i2-GWLEAbu0iPTTXwPQ0eANI6d6dwN73xDhFOALCGneDVXXHTGlE9Ly04AxpCP79iN6v6Wh6XGAFBjASFgI6h99b1xBhPF?width=1024&height=684&cropmode=none"
 ---
-Achim.
 
 ![image](https://dub01pap003files.storage.live.com/y4mF5S_gwV_zA46HPuHzCzmfWVO0qr9uzf1BV87RKjbp7pY-6-t4TNPaO_ZLQoI1GnKcR_JVZwtsCJVEsNJvyQowHNMIxS0IDfVy3i2-GWLEAbu0iPTTXwPQ0eANI6d6dwN73xDhFOALCGneDVXXHTGlE9Ly04AxpCP79iN6v6Wh6XGAFBjASFgI6h99b1xBhPF?width=2000&height=1335&cropmode=none)
 ![image](https://dub01pap003files.storage.live.com/y4m5ODeFLT6zwCwmtfTJIO_NLgMYt4agJarju2_RMqr7q4q5ARs0pT2qpXhm3UdNend1z8GW4wrl4iLSoBOutNqecsCvvvFt0ZH3-2kTyT_gaCRBk7s-utVWLoR773n5ynlQcIDLrUmKvRWiqPsUaWlNoOwwLb19b3EFrR14CWdBsA6af5R4xvLqt_EqVuTHzH2?width=2000&height=1335&cropmode=none)
