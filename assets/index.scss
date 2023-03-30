@@ -137,7 +137,7 @@ body.home .header .logo img{
   z-index: 2;
 }
 
-body:not(.events):not(.contact) .content a{
+body:not(.events):not(.comercial):not(.contact) .content a{
   text-decoration: underline;
   color: #0D47A1;
   font-weight: bold;
@@ -217,7 +217,8 @@ body.about p{
   text-align: justify;
 }
 
-body.events a.event{
+body.events a.event,
+body.comercial a.comercial{
   display: inline-block;
   position: relative;
   width: calc(49% - 1em);
@@ -227,11 +228,13 @@ body.events a.event{
   background: #000;
 }
 
-body.events a.event:hover .background{
+body.events a.event:hover .background,
+body.comercial a.comercial:hover .background{
   opacity: .5;
 }
 
-body.events a.event .background{
+body.events a.event .background,
+body.comercial a.comercial .background{
   opacity: .75;
   position:absolute;
   top: 0;
@@ -243,7 +246,8 @@ body.events a.event .background{
   transition: opacity .3s ease;
 }
 
-body.events a.event .details{
+body.events a.event .details,
+body.comercial a.comercial .details{
   position: absolute;
   top: 50%;
   width: 100%;
@@ -254,12 +258,14 @@ body.events a.event .details{
   color: #fff;
 }
 
-body.events a.event p{
+body.events a.event p,
+body.comercial a.comercial p{
   font-weight: bold;
   font-size: 1.2em;
 }
 
-body.events a.event span{
+body.events a.event span,
+body.comercial a.comercial span{
   margin-top: .5em;
   display: block;
   font-size: .85em;
@@ -269,7 +275,8 @@ body.events a.event span{
   transition: height .3s ease;
 }
 
-body.events a.event:hover span{
+body.events a.event:hover span,
+body.comercial a.comercial:hover span{
   height: 1.5em;
 }
 
@@ -278,7 +285,8 @@ body.photos .content h2{
 }
 
 body.photos .content img,
-body.event-page .content img{
+body.event-page .content img,
+body.comercial-page .content img{
   position: relative;
   display: inline-block;
   vertical-align: middle;
@@ -290,23 +298,27 @@ body.event-page .content img{
   transition: transform .3s ease;
 }
 
-body.event-page .content{
+body.event-page .content,
+body.comercial-page .content{
   text-align: center;
 }
 
-body.event-page .content h1{
+body.event-page .content h1,
+body.comercial-page .content h1{
   text-transform: initial;
   font-weight: normal;
   margin-bottom: initial;
 }
 
-body.event-page .content h2{
+body.event-page .content h2,
+body.comercial-page .content h2{
   font-weight: normal;
   font-size: 1.2em;
   opacity: .75;
 }
 
-body.event-page .content p{
+body.event-page .content p,
+body.comercial-page .content p{
   margin: 1em 0;
   font-size: .9em;
   line-height: 1.5em;
@@ -383,29 +395,34 @@ body.event-page .content p{
     font-size: 2em;
   }
 
-  body.events a.event{
+  body.events a.event,
+  body.comercial a.comercial{
     margin-right: 0;
     margin: .5em 0;
     width: 100%;
     padding-top: 45%;
   }
 
-  body.events a.event .details{
+  body.events a.event .details,
+  body.comercial a.comercial .details{
     font-size: .8em;
     padding: .5em;
   }
 
-  body.events a.event span{
+  body.events a.event span,
+  body.comercial a.comercial span{
     display: none;
   }
 
   body.event-page .content,
+  body.comercial-page .content,
   body.photos .content{
     text-align: center;
   }
 
   body.photos .content img,
-  body.event-page .content img{
+  body.event-page .content img,
+  body.comercial-page .content img{
     max-width: 100%;
     z-index: initial;
     margin: .5em 0;
