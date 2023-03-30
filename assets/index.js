@@ -114,7 +114,7 @@ function dom(){
 
     if(page.contains("home"))
         home();
-    else if(page.contains("photos") || page.contains("event-page"))
+    else if(page.contains("photos") || page.contains("event-page") || page.contains("comercial-page"))
         photos();
 
     let sandwich = document.querySelector("body>.header>.sandwich");
