@@ -1,0 +1,10 @@
+---
+layout: comercial
+type: comercial-page
+title: "Exemplu"
+background: "https://dub01pap003files.storage.live.com/y4maAO8pqkid_ONF52GEya8fILENCbLqsbXQ_k07QtHRCiukCNCKbqFpAjN4LbTFcBUvPtiARtjPEmIysvyTXOsV4H40swQvn_oFScvhG3jlq55wdIAKRvgCSfiPJRCsF_PuZKKPUOCcGn4Okm8A2vEvHu6wJ7qmIUfC6KQu4xnaOELtD2eTrAyDi3k1oAW3j55?width=2000&height=1335&cropmode=none"
+---
+
+Exemplu de pagina
+
+![image](https://dub01pap003files.storage.live.com/y4maAO8pqkid_ONF52GEya8fILENCbLqsbXQ_k07QtHRCiukCNCKbqFpAjN4LbTFcBUvPtiARtjPEmIysvyTXOsV4H40swQvn_oFScvhG3jlq55wdIAKRvgCSfiPJRCsF_PuZKKPUOCcGn4Okm8A2vEvHu6wJ7qmIUfC6KQu4xnaOELtD2eTrAyDi3k1oAW3j55?width=2000&height=1335&cropmode=none)
