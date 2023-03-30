@@ -5,7 +5,7 @@ title: "Comercial"
 ---
 <h1>Comercial</h1>
 
-{% assign sorted_comercials = site.comercials | sort: "date" | reverse %}
+{% assign sorted_comercials = site.comercial | sort: "date" | reverse %}
 {% for comercial in sorted_comercials %}
 <a href="{{ site.baseurl }}{{ event.url }}" class="comercial">
     {% if comercial.background %}<div class="background" style="background-image:url({{ comercial.background }})"></div>{% endif %}
