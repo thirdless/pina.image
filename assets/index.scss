@@ -312,6 +312,10 @@ body.comercial-page .content img{
   margin: .5em 0;
   opacity: 0;
   transition: opacity .3s ease;
+  transition-property: opacity, transform;
+  cursor: pointer;
+  z-index: 1;
+  position: relative;
 }
 
 .content .gallery img.show{
