@@ -1,3 +1,5 @@
+const DIVIDE_GALLERY = 3;
+
 let homeBackgrounds,
     currentBackground = 0;
 
@@ -78,10 +80,59 @@ function zoomClose(){
     }, 500);
 }
 
+let div_width = -1;
+let all_divs = [];
+
+function img_loaded(e, divs){
+    let min_h = divs[0][1], min_i = 0;
+    let image = e.target;
+
+    for(let i = 0; i < divs.length; i++){
+        let current = divs[i][1];
+
+        if(current < min_h){
+            min_h = current;
+            min_i = i;
+        }
+    }
+
+    divs[min_i][1] += div_width / image.naturalWidth * image.naturalHeight;
+    divs[min_i][0].appendChild(image);
+
+    setInterval(() => {
+        image.className = "show";
+    }, 100);
+}
+
+function mozaic(gallery){
+    let divs = [];
+    let images = gallery.querySelectorAll("img");
+
+    for(let i = 0; i < DIVIDE_GALLERY; i++){
+        let el = document.createElement("div");
+        el.className = "half";
+        divs.push([el, 0]);
+        gallery.appendChild(el);
+    }
+
+    all_divs.push(divs);
+
+    if(div_width == -1)
+        div_width = divs[0][0].offsetWidth;
+
+    for(let i = 0; i < images.length; i++){
+        gallery.removeChild(images[i]);
+        images[i].addEventListener("load", e => img_loaded(e, divs));
+        images[i].addEventListener("click", zoomImage);
+    }
+}
+
 function photos(){
-    document.querySelectorAll(".content img").forEach(e => {
-        e.addEventListener("click", zoomImage);
-    });
+    let galleries = document.querySelectorAll(".gallery");
+    
+    for(let i = 0; i < galleries.length; i++){
+        mozaic(galleries[i]);
+    }
 }
 
 function home(){
