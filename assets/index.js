@@ -140,7 +140,7 @@ function mozaic(gallery){
 
 function photos(){
     let galleries = document.querySelectorAll(".gallery");
-    observer = new IntersectionObserver(callback, {threshold: 0.5});
+    observer = new IntersectionObserver(mozaicShow, {threshold: 0.5});
     
     for(let i = 0; i < galleries.length; i++){
         mozaic(galleries[i]);
