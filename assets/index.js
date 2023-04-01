@@ -144,6 +144,13 @@ function home(){
     homeBackgrounds.forEach(e => e.style.opacity = 0);
     homeBackgrounds[0].style.opacity = 1;
     setInterval(iterateBackgrounds, 5000);
+    
+    let first = homeBackgrounds[0].style.backgroundImage.replace("url(\"", "").replace("\")", ""),
+        background_el = document.querySelector(".home .background"),
+        image = new Image();
+    
+    image.addEventListener("load", e => background_el.style.opacity = 1);
+    image.src = first;
 }
 
 let menuElement;
