@@ -149,7 +149,7 @@ function home(){
         background_el = document.querySelector(".home .background"),
         image = new Image();
     
-    image.addEventListener("load", e => setTimeout(() => background_el.style.opacity = 1, 100);
+    image.addEventListener("load", e => setTimeout(() => {background_el.style.opacity = 1}, 100);
     image.src = first;
 }
 
