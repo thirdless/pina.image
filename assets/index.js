@@ -82,6 +82,7 @@ function zoomClose(){
 
 let div_width = -1;
 let all_divs = [];
+let observer;
 
 function img_loaded(image, divs){
     let min_h = divs[0][1], min_i = 0;
@@ -98,9 +99,15 @@ function img_loaded(image, divs){
     divs[min_i][1] += div_width / image.naturalWidth * image.naturalHeight;
     divs[min_i][0].appendChild(image);
 
-    setInterval(() => {
-        image.className = "show";
-    }, 100);
+//     setInterval(() => {
+//         image.className = "show";
+//     }, 100);
+    observer.observe(image);
+}
+
+function mozaicShow(e){
+    console.log(e);
+    //observer.unobserve();
 }
 
 function mozaic(gallery){
@@ -133,6 +140,7 @@ function mozaic(gallery){
 
 function photos(){
     let galleries = document.querySelectorAll(".gallery");
+    observer = new IntersectionObserver(callback, {threshold: 0.5});
     
     for(let i = 0; i < galleries.length; i++){
         mozaic(galleries[i]);
