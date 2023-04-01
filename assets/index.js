@@ -83,9 +83,8 @@ function zoomClose(){
 let div_width = -1;
 let all_divs = [];
 
-function img_loaded(e, divs){
+function img_loaded(image, divs){
     let min_h = divs[0][1], min_i = 0;
-    let image = e.target;
 
     for(let i = 0; i < divs.length; i++){
         let current = divs[i][1];
@@ -122,7 +121,12 @@ function mozaic(gallery){
 
     for(let i = 0; i < images.length; i++){
         gallery.removeChild(images[i]);
-        images[i].addEventListener("load", e => img_loaded(e, divs));
+        
+        if(images[i].complete && images[i].naturalWidth)
+            img_loaded(images[i], divs);
+        else
+            images[i].addEventListener("load", e => img_loaded(e.target, divs));
+        
         images[i].addEventListener("click", zoomImage);
     }
 }
