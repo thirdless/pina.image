@@ -284,20 +284,6 @@ body.photos .content h2{
   margin: 2em 0 1em;
 }
 
-/* body.photos .content img,
-body.event-page .content img,
-body.comercial-page .content img{
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  max-width: calc(32% - 1em);
-  max-height: 40vh;
-  margin: 1em 1em 1em 0;
-  z-index: 1;
-  cursor: pointer;
-  transition: transform .3s ease;
-} */
-
 .content .gallery{
   display: grid;
   grid-template-columns: repeat(3, calc(33% - .5em));
@@ -358,7 +344,6 @@ body.comercial-page .content p{
   z-index: 2;
   cursor: pointer;
   opacity: 0;
-  /* backdrop-filter: blur(.1em); */
   transition: opacity .3s ease;
 }
 
@@ -443,18 +428,13 @@ body.comercial-page .content p{
   body.photos .content{
     text-align: center;
   }
-
-//   body.photos .content img,
-//   body.event-page .content img,
-//   body.comercial-page .content img{
-//     max-width: 100%;
-//     z-index: initial;
-//     margin: .5em 0;
-//     max-height: initial;
-//   }
   
   .content .gallery{
     display: block;
+  }
+  
+  .content .gallery img{
+    z-index: initial;
   }
 
   body.photos .content h2{
