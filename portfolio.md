@@ -1,9 +1,9 @@
 ---
 layout: default
 type: photos
-title: "Portofolio"
+title: "Portfolio"
 ---
-# Portofolio
+# Portfolio
 
 ![image](https://dub01pap003files.storage.live.com/y4mIUNaDwjbGGUlB5WYBYokHwjpeevbE2xwylk6cp3Q2iVufn3ecXLAn7w3LjzBNx2pHURHzX5ttamSpMSGgVv5GQV9Cc9YP9D01XxiL5WdGFAV9RpHZyEwVvCGGdTzeTvdFX3E7vHi2eebNWjhZd2u-l7CfiZaQIb6FEqJ0QjOhfF8xK-lQpdpO1FjIMv-zMnS?width=2000&height=1335&cropmode=none)
 ![image](https://dub01pap003files.storage.live.com/y4mvaDsxvshZ6TCOsWPXJoWqU5OnEopq1sPj84FRU4ismztktIbfWQtzACt94_epU320DUJM9a6PusEVf07ubg-Qz_uMz2WBdAiY9aEZrzo0enZ__tfy_7ZaDISNL4U64g-Iqv8mgjEAO_1uwt6uxpXyWlo1Hq6McfnVGdZ3RjzbK6llOjt_KFsVnxr6jTl0idj?width=1335&height=2000&cropmode=none)
