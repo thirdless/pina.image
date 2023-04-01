@@ -11,9 +11,11 @@ title: "Comercial"
     {% if comercial.background %}<div class="background" style="background-image:url({{ comercial.background }})"></div>{% endif %}
     <div class="details">
         <p>{{ comercial.title }}</p>
+        <!--
         {% assign mindex = comercial.date | date: "%-m" | minus: 1 %}
         {% assign month = site.data.months.months[mindex] %}
         <span>{{ comercial.date | date: "%-d" }} {{ month }} {{ comercial.date | date: "%Y" }}</span>
+        -->
     </div>
 </a>
 {% endfor %}
