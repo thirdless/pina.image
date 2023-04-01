@@ -22,6 +22,10 @@ body{
   z-index: 1;
 }
 
+body.home{
+  background: #000;
+}
+
 body.home .header{
   color: #fff;
 }
@@ -156,6 +160,8 @@ body.home .background{
   right: 0;
   left: 0;
   z-index: -1;
+  transition: opacity .3s ease;
+  opacity: 0.01;
 }
 
 body.home .background div{
