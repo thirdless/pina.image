@@ -98,16 +98,15 @@ function img_loaded(image, divs){
 
     divs[min_i][1] += div_width / image.naturalWidth * image.naturalHeight;
     divs[min_i][0].appendChild(image);
-
-//     setInterval(() => {
-//         image.className = "show";
-//     }, 100);
+    
     observer.observe(image);
 }
 
 function mozaicShow(e){
-    console.log(e);
-    //observer.unobserve();
+    let target = e[0].target;
+    
+    target.classList.add("show");
+    observer.unobserve(target);
 }
 
 function mozaic(gallery){
