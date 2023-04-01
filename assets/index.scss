@@ -284,7 +284,7 @@ body.photos .content h2{
   margin: 2em 0 1em;
 }
 
-body.photos .content img,
+/* body.photos .content img,
 body.event-page .content img,
 body.comercial-page .content img{
   position: relative;
@@ -296,6 +296,26 @@ body.comercial-page .content img{
   z-index: 1;
   cursor: pointer;
   transition: transform .3s ease;
+} */
+
+.content .gallery{
+  display: grid;
+  grid-template-columns: repeat(3, calc(33% - .5em));
+  grid-gap: 1em;
+  width: 100%;
+  max-width: 80em;
+  margin: 0 auto;
+}
+
+.content .gallery img{
+  width: 100%;
+  margin: .5em 0;
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+
+.content .gallery img.show{
+  opacity: 1;
 }
 
 body.event-page .content,
@@ -420,13 +440,17 @@ body.comercial-page .content p{
     text-align: center;
   }
 
-  body.photos .content img,
-  body.event-page .content img,
-  body.comercial-page .content img{
-    max-width: 100%;
-    z-index: initial;
-    margin: .5em 0;
-    max-height: initial;
+//   body.photos .content img,
+//   body.event-page .content img,
+//   body.comercial-page .content img{
+//     max-width: 100%;
+//     z-index: initial;
+//     margin: .5em 0;
+//     max-height: initial;
+//   }
+  
+  .content .gallery{
+    display: block;
   }
 
   body.photos .content h2{
