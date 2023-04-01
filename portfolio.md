@@ -1,6 +1,6 @@
 ---
 layout: default
-type: portfolio
+type: photos
 title: "Portfolio"
 ---
 # Portfolio
