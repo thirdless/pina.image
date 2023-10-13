@@ -1,0 +1,9 @@
+layout: event
+type: event-page
+title: "Botez Gavriil"
+background: "https://onedrive.live.com/embed?resid=8F62A36FCD0C6467%2110766&authkey=%21AGXJfcqO4t0u2ME&width=2000&height=1332"
+---
+
+<div class="gallery">
+<img src="">
+</div>
